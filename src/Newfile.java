@@ -12,12 +12,13 @@ public class Newfile {
 		} else {
 			System.out.println("X is not 5 or 4");
 		}
-		
+
 		// SWITCH
 		switch (x) {
 		case 5: System.out.println("x=5");
 				break;
 		case 4: System.out.println("x=4");
+				System.out.println("nw");
 				break;
 		default: System.out.println("Not 5 or 4");		
 		}
