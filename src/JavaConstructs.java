@@ -4,7 +4,7 @@ public class JavaConstructs {
 	public static void main(String[] args) {
 	
 		// IF
-		int x=5;
+		int x=6;
 		if(x==5) {
 			System.out.println("x=5");
 		} else if(x==4) {
@@ -22,8 +22,13 @@ public class JavaConstructs {
 		default: System.out.println("Not 5 or 4");		
 		}
 		
-		for(int i=0; i<=5; ++i) {
-			printNum(x);
+		for(int i=0; i<=5; i++) {
+			System.out.println("i = "+i+" x = "+x);
+			if(i==3) {
+				if(x==5)
+					continue;
+				break;
+			}
 		}	
 		System.out.println(sumNum(3));	
 	}

@@ -42,7 +42,7 @@ public class SeleniumLocators {
 		// Retrieve title, current url
 		String titlePg = driver.getTitle();
 		String pgUrl = driver.getCurrentUrl();
-		String titlePgsrc = driver.getPageSource();
+//		String titlePgsrc = driver.getPageSource();
 
 		System.out.println("Title: " + titlePg);
 		System.out.println("Page Url: " + pgUrl);
